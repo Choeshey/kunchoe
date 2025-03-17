@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c3e50;
+    font-family: Arial, sans-serif;
+}
+
+#game-board {
+    border: 2px solid #ecf0f1;
+    background-color: #34495e;
+}
+
+#score {
+    color: #ecf0f1;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.game-over {
+    position: absolute;
+    color: #e74c3c;
+    font-size: 3em;
+    text-align: center;
+    display: none;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    margin-top: 20px;
+}
